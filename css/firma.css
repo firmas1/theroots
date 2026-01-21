@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* Agenda Regular */
+@font-face {
+  font-family: 'Agenda';
+  src: url('https://firmas1.github.io/theroots/fonts/Agenda-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agenda';
+  src: url('https://firmas1.github.io/theroots/fonts/Agenda-Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agenda';
+  src: url('https://firmas1.github.io/theroots/fonts/Agenda-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* CSS Document */
+body {
+  background-image: url("../img/bg.png");
+  font-family:'Avenir', 'Arial', 'Helvetica', 'Roboto', sans-serif;
+	margin: 0px;
+}
+.remember {
+	display: block;
+	width: 100%;
+	background-color: yellow;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 11pt;
+	font-weight: 300;
+	padding: 8px 0px;
+	margin: 0px;
+	border-bottom: 1px solid #BCA100;
+	text-align: center;
+}
+
+.div_hidden {
+  display: inline-block;
+}
+.div_centerArea {
+  width: 700px;
+  margin: auto;
+	
+}
+.div_topLogo{
+	width: 100%; 
+	text-align: center;
+	margin: 10px;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+	vertical-align: middle; 
+	text-align: center;
+}
+.txt-firmas {
+  text-align: center;
+  vertical-align: middle; 
+  letter-spacing: 15px;
+  font-size: 15px;
+}
+.div_content {
+  background-color: white;
+  padding: 30px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -12px black;
+}
+.heading {
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+.appOptions {
+  width: 120px;
+  padding: 15px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px -4px black;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+.appOptions:hover {
+  transform: scale(1.15);
+}
+.skip, .back {
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+.back {
+  text-align: center;
+}
+.skip:hover {
+  text-decoration: underline;
+}
+.back:hover {
+  text-decoration: underline;
+}
+.usebrowser {
+  background: #ddd;
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+.browser_instrucciones {
+  font-size: 13px;
+  padding: 10px 30px;
+  color: #666;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.separator {
+  width: 100px;
+  height: 0px;
+  border-bottom: 1px solid #ddd;
+  margin: 10px;
+}
+.signatureContainer {
+  width: 560px;
+  padding: 20px;
+    margin: auto;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  margin-bottom: 60px;
+  border: 1px solid #ccc;
+}
+.div_copybtn{
+    text-align: center;
+    margin: 20px;
+}
+
+.btnCopy {
+  border-radius: 20px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #6641CE;
+    text-decoration: none;
+      border: 2px solid #6641CE;
+
+}
+.stepDetails {
+  padding: 10px 5px;
+  margin: 0px;
+  font-size: 14px;
+  color: #444;
+  border-top: 1px solid #ddd;
+}
+
+.msg-copied{
+	font-size: 9pt;
+	color:grey;
+	padding: 0px; 
+	margin-bottom: 0px;
+}
+
+
+
+
+/* ANIMATION KEYFRAMES*/
+
+
+@keyframes fadeIn{
+  0% {
+	 transform: translateY(-40px);
+	 opacity: 0%;
+  }
+  100% {
+	  transform: translateY(0px);
+	  opacity: 100%;
+
+  }
+}
+@keyframes fadeOut{
+  0% {
+	 opacity: 100%;	
+	  display: block
+  }
+  100% {
+	  opacity: 0%;
+	  display: none;
+  }
+}
