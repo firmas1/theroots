@@ -51,6 +51,7 @@ function getForcedOSFromURL() {
   }
 
   console.log('Detected OS:', os);
+	alert('Detected OS:', os)
 
   // ==============================
   // UI HELPERS
@@ -89,8 +90,7 @@ function getForcedOSFromURL() {
 
       default:
         //show('win-outlook', 'inline-block');
-		    document.getElementById("bakedSignature").style.display = "block";
-
+		showAll();
         break;
     }
   }
@@ -98,8 +98,7 @@ function getForcedOSFromURL() {
   if (os === 'mac' || os === 'windows') {
     showOptions();
   } else {
-        document.getElementById("bakedSignature").style.display = "block";
-
+    showAll();
   }
 
   // ==============================
