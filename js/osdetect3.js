@@ -51,7 +51,7 @@ function getForcedOSFromURL() {
   }
 
   console.log('Detected OS:', os);
-	window.alert(os)
+	//window.alert(os)
 
   // ==============================
   // UI HELPERS
