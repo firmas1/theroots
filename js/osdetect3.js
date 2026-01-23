@@ -89,7 +89,8 @@ function getForcedOSFromURL() {
 
       default:
         //show('win-outlook', 'inline-block');
-		showAll();
+		    document.getElementById("bakedSignature").style.display = "block";
+
         break;
     }
   }
@@ -97,7 +98,8 @@ function getForcedOSFromURL() {
   if (os === 'mac' || os === 'windows') {
     showOptions();
   } else {
-    showAll();
+        document.getElementById("bakedSignature").style.display = "block";
+
   }
 
   // ==============================
@@ -132,10 +134,10 @@ function getForcedOSFromURL() {
             show('stepsOutlook');
             break;
           case 'android':
-            show('stepsAndroid');
+            //show('stepsAndroid');
             break;
           case 'ios':
-            show('stepsIos');
+            //show('stepsIos');
             break;
         }
         break;
