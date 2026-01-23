@@ -88,8 +88,8 @@ function getForcedOSFromURL() {
         break;
 
       default:
-        show('win-outlook', 'inline-block');
-
+        //show('win-outlook', 'inline-block');
+		showAll();
         break;
     }
   }
@@ -97,7 +97,7 @@ function getForcedOSFromURL() {
   if (os === 'mac' || os === 'windows') {
     showOptions();
   } else {
-    showSignature('other');
+    showAll();
   }
 
   // ==============================
