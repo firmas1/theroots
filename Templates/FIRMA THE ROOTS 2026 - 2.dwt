@@ -85,7 +85,7 @@
               <div style="padding-left: 15px;background: white !important; -apple-color-filter: none;">
 				
 			<!-- TemplateBeginEditable name="region.Name-mail" -->
-              <a href="mailto:{{EMAIL}}" style="color: inherit; text-decoration: inherit; font-weight: inherit;">
+              <a href="mailto:{{EMAIL}}" style="color: #808080 !important;; text-decoration: inherit; font-weight: inherit;">
 			<!-- TemplateEndEditable -->
               <p style="padding-top: 60px; margin: 0px; letter-spacing: 0.65px; padding-bottom: 4px; font-size: 0px!important; text-transform: capitalize; font-weight:100; color: white !important ">
 			 <!-- TemplateBeginEditable name="region.Name" -->{{NOMBRE}} {{CARGO}}<br/>
@@ -94,12 +94,12 @@
              </a>
 
             <!-- TemplateBeginEditable name="region.OfficePhone" -->
-			<a href="tel:{{TEL}}" style="color: inherit; text-decoration: inherit; font-weight: inherit; "><p style="padding: 0px; margin: 0px; letter-spacing: 0.8px; padding-bottom: 0px; font-size:12px">Tel.: {{TEL}}</p></a>
+			<a href="tel:{{TEL}}" style="color: #808080 !important;; text-decoration: inherit; font-weight: inherit; "><p style="padding: 0px; margin: 0px; letter-spacing: 0.8px; padding-bottom: 0px; font-size:12px">Tel.: {{TEL}}</p></a>
 			<!-- TemplateEndEditable -->
 				  
             <!-- OPTATIVO_CELULAR--> 
 			<!-- TemplateBeginEditable name="region.Whatsapp" -->
-			   <a href="https://wa.me/{{CEL}}" style="color: inherit; text-decoration: inherit; font-weight: inherit; ">
+			   <a href="https://wa.me/{{CEL}}" style="color: #808080 !important;; text-decoration: inherit; font-weight: inherit; ">
               <p style="padding: 0px; margin: 0px; letter-spacing: 0.8px; padding-bottom: 0px; font-size:12px">WhatsApp: {{CEL}}
 			  </p></a>
 		    <!-- TemplateEndEditable -->
@@ -107,17 +107,17 @@
 
 				  <!-- TemplateBeginEditable name="region.email" --> 
 				  <!--
-					<a href="mailto:{{EMAIL}}}" style="color: inherit; text-decoration: inherit; font-weight: inherit; ">
+					<a href="mailto:{{EMAIL}}}" style="color: #808080 !important;; text-decoration: inherit; font-weight: inherit; ">
              		 <p style="padding: 0px; margin: 0px; letter-spacing: 0.8px; padding-bottom: 0px; font-size:10px">{{EMAIL}}} 
 					</p></a>
 				   -->
 				  <!-- TemplateEndEditable --> 
 				 
-				<a href="https://www.theroots.tv" style="color: inherit; text-decoration: inherit; font-weight: inherit; ">
+				<a href="https://www.theroots.tv" style="color: #808080 !important;; text-decoration: inherit; font-weight: inherit; ">
               <p style="padding: 0px; margin: 0px; letter-spacing: 0.8px; padding-bottom: 12px; font-size:12px">theroots.tv</p>
               </a>
 				
-				  <a href="https://www.facebook.com/therootsproductions/" style="padding-right: 10px; text-align: left; font-size: 13px; text-decoration: inherit; color: #fdb9a1; font-weight: 500; border-right: 1px solid #fdb9a1;">Fb2</a>
+				  <a href="https://www.facebook.com/therootsproductions/" style="padding-right: 10px; text-align: left; font-size: 13px; text-decoration: inherit; color: #fdb9a1; font-weight: 500; border-right: 1px solid #fdb9a1;">Fb3</a>
 				  <a href="https://www.instagram.com/theroots.tv/" style="padding: 0px 9px 0px 5px; text-align: left; font-size: 13px; text-decoration: inherit; color: #fdb9a1; font-weight: 500; border-right: 1px solid #fdb9a1;">In</a>
 				  <!-- TemplateBeginEditable name="region.whatsapp" -->
 				  <a href="https://wa.me/{{CEL}}" style="padding: 0px 9px 0px 5px; text-align: left; font-size: 13px; text-decoration: inherit; color: #fdb9a1; font-weight: 500; border-right: 1px solid #fdb9a1;">Wa</a>
@@ -125,7 +125,7 @@
 				  <a href="https://www.linkedin.com/company/the-roots-production-service/posts/?feedView=all" style="padding: 0px 9px 0px 5px; text-align: left; font-size: 13px; text-decoration: inherit; color: #fdb9a1; font-weight: 500; border-right: 1px solid #fdb9a1;">Li</a>
 				  <a href="https://www.youtube.com/channel/UCTy3AJuPgYCRySiESMQzOGw/featured" style="padding: 0px 10px 0px 5px; text-align: left; font-size: 13px; text-decoration: inherit; color: #fdb9a1; font-weight: 500; border-right: 1px solid #fdb9a1;">Yt</a>
 				  <!-- TemplateBeginEditable name="region.vCard" -->
-				  <a href="http://www.theroots.tv/firmas/2020/js/vcard.html?nombre={{NOMBRE}}&apellido={{APELLIDO}}&cargo={{CARGO}}}&cell={{CEL}}&email={{EMAIL}}&skype=0"
+				  <a href="http://www.theroots.tv/firmas/2020/js/vcard.html?nombre={{NOMBRE}}&apellido={{APELLIDO}}&cargo={{CARGO}}&cell={{CEL}}&email={{EMAIL}}&skype=0"
 				  style="padding: 0px 9px 0px 5px; text-align: left; font-size: 13px; text-decoration: inherit; color: #9fd6be; font-weight: 600;">Contact</a>
 				  <!-- TemplateEndEditable -->
 
