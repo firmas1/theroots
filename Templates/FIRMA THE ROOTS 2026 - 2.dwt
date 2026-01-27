@@ -88,8 +88,8 @@
               <a href="mailto:{{EMAIL}}" style="color: #808080 !important; text-decoration: inherit; font-weight: inherit;">
 			<!-- TemplateEndEditable -->
               <p style="padding-top: 60px; margin: 0px; letter-spacing: 0.65px; padding-bottom: 4px; font-size: 0px!important; text-transform: capitalize; font-weight:100; color: white !important ">
-			 <!-- TemplateBeginEditable name="region.Name" -->{{NOMBRE}} {{CARGO}}<br/>
-				  <img src="../img-firma/Ariel-Leon.png" style="width:230px; text-decoration: none" alt="{{NOMBRE}}"/>
+			 <!-- TemplateBeginEditable name="region.Name" -->{{NOMBRE}} {{APELLIDO}} - {{CARGO}}<br/>
+				  <img src="../img-firma/{{NOMBRE}}-{{APELLIDO}}.png" style="height: 38px; text-decoration: none" alt="{{NOMBRE}} {{APELLIDO}}"/>
 			<!-- TemplateEndEditable --> </p>
              </a>
 
@@ -139,7 +139,7 @@
 			  	<span style="font-size: 0px; color: white;">- 
 				<!-- TemplateBeginEditable name="regionNombreTexto" -->
            		 <!-- Escribir el Nombre y el Apellido de la persona. Debe quedar como el siguiente ejemplo: Juan Pérez -->
-            	{{NOMBRE}} - The Roots
+            	{{NOMBRE}} {{APELLIDO}} - The Roots
             
            		 <!-- TemplateEndEditable --></span>
 			  </td>
@@ -193,7 +193,7 @@
       <a href="http://www.theroots.tv" id="firmaBaked" style=" color: #FFFFFF;text-decoration: none"><!-- TemplateBeginEditable name="regionFirmaIMAGEN" -->
           
           <!-- El atributo "alt" de la siguiente línea debe quedar sin ningún guión, por ejemplo:  alt="Juan Perez" -->
-          <img src="../img-firma/{{NOMBRE}}.gif" width="450" alt="{{NOMBRE}}"/>
+          <img src="../img-firma/{{NOMBRE}}-{{APELLIDO}}.gif" width="450" alt="{{NOMBRE}} {{APELLIDO}}"/>
           
           <!-- TemplateEndEditable --> <br>
       _&nbsp;</a>
